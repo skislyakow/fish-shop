@@ -10,41 +10,5 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "blocks"
-    },
-    "price": {
-      "type": "decimal",
-      "required": true
-    },
-    "weight": {
-      "type": "string",
-      "default": "1 кг"
-    },
-    "inStock": {
-      "type": "boolean",
-      "default": true
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "category": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "products"
-    }
-  }
+  "attributes": {}
 }
